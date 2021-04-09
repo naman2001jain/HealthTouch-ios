@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8033C1B6B7BC3FABCC638DBB /* Pods_HealthTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923C11F82525FDE9381F124F /* Pods_HealthTouch.framework */; };
+		ED3D3AD5261F2CC300896BEB /* GraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D3AD4261F2CC300896BEB /* GraphData.swift */; };
 		ED809506261C39CD0090CC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED809505261C39CD0090CC95 /* AppDelegate.swift */; };
 		ED809508261C39CD0090CC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED809507261C39CD0090CC95 /* SceneDelegate.swift */; };
 		ED80950A261C39CD0090CC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED809509261C39CD0090CC95 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		ED809512261C39D10090CC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED809510261C39D10090CC95 /* LaunchScreen.storyboard */; };
 		ED80951D261C39D10090CC95 /* HealthTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80951C261C39D10090CC95 /* HealthTouchTests.swift */; };
 		ED809528261C39D10090CC95 /* HealthTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED809527261C39D10090CC95 /* HealthTouchUITests.swift */; };
+		ED80953A261C84740090CC95 /* TimeDurationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED809538261C84740090CC95 /* TimeDurationCollectionViewCell.swift */; };
+		ED80953B261C84740090CC95 /* TimeDurationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED809539261C84740090CC95 /* TimeDurationCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2882898E7DD430A56EB8BBD3 /* Pods-HealthTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTouch.debug.xcconfig"; path = "Target Support Files/Pods-HealthTouch/Pods-HealthTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		923C11F82525FDE9381F124F /* Pods_HealthTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3D3AD4261F2CC300896BEB /* GraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphData.swift; sourceTree = "<group>"; };
 		ED809502261C39CD0090CC95 /* HealthTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED809505261C39CD0090CC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED809507261C39CD0090CC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		ED809523261C39D10090CC95 /* HealthTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED809527261C39D10090CC95 /* HealthTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTouchUITests.swift; sourceTree = "<group>"; };
 		ED809529261C39D10090CC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED809538261C84740090CC95 /* TimeDurationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDurationCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED809539261C84740090CC95 /* TimeDurationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeDurationCollectionViewCell.xib; sourceTree = "<group>"; };
+		F29B1889F2D2577326C2D32F /* Pods-HealthTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTouch.release.xcconfig"; path = "Target Support Files/Pods-HealthTouch/Pods-HealthTouch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8033C1B6B7BC3FABCC638DBB /* Pods_HealthTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180ECB1ED4CF345C2C237563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923C11F82525FDE9381F124F /* Pods_HealthTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90CC54EF3AD4524ECA758FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2882898E7DD430A56EB8BBD3 /* Pods-HealthTouch.debug.xcconfig */,
+				F29B1889F2D2577326C2D32F /* Pods-HealthTouch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ED8094F9261C39CD0090CC95 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				ED80951B261C39D10090CC95 /* HealthTouchTests */,
 				ED809526261C39D10090CC95 /* HealthTouchUITests */,
 				ED809503261C39CD0090CC95 /* Products */,
+				90CC54EF3AD4524ECA758FD9 /* Pods */,
+				180ECB1ED4CF345C2C237563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +132,10 @@
 				ED809505261C39CD0090CC95 /* AppDelegate.swift */,
 				ED809507261C39CD0090CC95 /* SceneDelegate.swift */,
 				ED809509261C39CD0090CC95 /* ViewController.swift */,
+				ED3D3AD4261F2CC300896BEB /* GraphData.swift */,
 				ED80950B261C39CD0090CC95 /* Main.storyboard */,
+				ED809538261C84740090CC95 /* TimeDurationCollectionViewCell.swift */,
+				ED809539261C84740090CC95 /* TimeDurationCollectionViewCell.xib */,
 				ED80950E261C39D10090CC95 /* Assets.xcassets */,
 				ED809510261C39D10090CC95 /* LaunchScreen.storyboard */,
 				ED809513261C39D10090CC95 /* Info.plist */,
@@ -135,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED80952C261C39D10090CC95 /* Build configuration list for PBXNativeTarget "HealthTouch" */;
 			buildPhases = (
+				1A80BC1D3975A4C4FF7A6201 /* [CP] Check Pods Manifest.lock */,
 				ED8094FE261C39CD0090CC95 /* Sources */,
 				ED8094FF261C39CD0090CC95 /* Frameworks */,
 				ED809500261C39CD0090CC95 /* Resources */,
+				2E414D3D37F73A6182DBE801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +269,7 @@
 				ED809512261C39D10090CC95 /* LaunchScreen.storyboard in Resources */,
 				ED80950F261C39D10090CC95 /* Assets.xcassets in Resources */,
 				ED80950D261C39CD0090CC95 /* Main.storyboard in Resources */,
+				ED80953B261C84740090CC95 /* TimeDurationCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +289,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A80BC1D3975A4C4FF7A6201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E414D3D37F73A6182DBE801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthTouch/Pods-HealthTouch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthTouch/Pods-HealthTouch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthTouch/Pods-HealthTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED8094FE261C39CD0090CC95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +339,8 @@
 				ED80950A261C39CD0090CC95 /* ViewController.swift in Sources */,
 				ED809506261C39CD0090CC95 /* AppDelegate.swift in Sources */,
 				ED809508261C39CD0090CC95 /* SceneDelegate.swift in Sources */,
+				ED80953A261C84740090CC95 /* TimeDurationCollectionViewCell.swift in Sources */,
+				ED3D3AD5261F2CC300896BEB /* GraphData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +513,7 @@
 		};
 		ED80952D261C39D10090CC95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2882898E7DD430A56EB8BBD3 /* Pods-HealthTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +532,7 @@
 		};
 		ED80952E261C39D10090CC95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29B1889F2D2577326C2D32F /* Pods-HealthTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
