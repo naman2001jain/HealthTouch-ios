@@ -263,7 +263,7 @@
                                                                         <color key="backgroundColor" red="0.1160921082" green="0.4694330692" blue="0.86813473699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                                                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <state key="normal" title="contact Us">
+                                                                        <state key="normal" title="Book now">
                                                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <imageReference key="image" image="calendar" catalog="system" symbolScale="large"/>
                                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="medium"/>
