@@ -11,4 +11,4 @@ Here are some images
 ![](/images/iPhone%2012%20pro%20max.png)
 
 
-![](/images/iPod%20touch.png)
+![](/images/iPod%20touch%20.png)
